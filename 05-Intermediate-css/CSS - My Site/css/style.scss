@@ -1,0 +1,38 @@
+$default_height: 200px;
+$default_width: 200px;
+
+
+.div_template {
+  height: $default_height;
+  width: $default_width;
+}
+
+
+.middle_container {
+  @extend .div_template;
+  background-color: blue;
+}
+.bottom_container {
+  @extend .div_template;
+  background-color: yellow;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+div {
+  background-color: #E4F9F5;
+  margin-top: 0;
+  h1 {
+    margin-top: 0;
+  }
+}
+
+.pro {
+  text-decoration: underline;
+  // visibility: hidden;
+}
+

@@ -1,0 +1,28 @@
+.div_template, .bottom_container, .middle_container {
+  height: 200px;
+  width: 200px;
+}
+
+.middle_container {
+  background-color: blue;
+}
+
+.bottom_container {
+  background-color: yellow;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  background-color: #E4F9F5;
+  margin-top: 0;
+}
+div h1 {
+  margin-top: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
