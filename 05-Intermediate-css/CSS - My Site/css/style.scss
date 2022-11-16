@@ -6,21 +6,23 @@ $default_width: 200px;
   width: $default_width;
 }
 
-.middle-container {
-  .skills,
-  .skill-row {
-    width: 50%;
-    display: inline-block;
-  }
-}
-.bottom-container {
-}
-
 body {
   margin: 0;
   font-family: verdana, sans-serif;
   font-family: "Merriweather", serif;
-  // text-align: center; ///////////////////
+  text-align: center; ///////////////////
+}
+
+.middle-container {
+  text-align: center;
+  .skill-row {
+    width: 50%;
+    margin: 200px auto 200px auto; // Було 100px !!!
+    text-align: left;
+    line-height: 2;
+  }
+}
+.bottom-container {
 }
 
 h1 {
@@ -34,19 +36,23 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-weight: normal;
-  color: #66bfbf;
 }
 
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
 }
 
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #EAF6F6;
   text-align: center;
   padding-top: 100px;
   position: relative;
+}
+
+.profile {
+  color: #40514e;
 }
 
 .pro {
@@ -65,4 +71,23 @@ h3 {
   position: absolute;
   // left: 300px;
   // bottom: 300px;
+}
+
+.react-img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.python-img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.my-photo {
+  border-radius: 50%;
 }
