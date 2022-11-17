@@ -8,6 +8,7 @@ body {
   font-family: verdana, sans-serif;
   font-family: "Merriweather", serif;
   text-align: center;
+  background-color: #EAF6F6;
 }
 
 .middle-container {
@@ -20,6 +21,25 @@ body {
   line-height: 2;
 }
 
+.bottom-container {
+  background-color: #66BFBF;
+  height: 100px;
+  padding-top: 40px;
+}
+.bottom-container a {
+  text-decoration: none;
+}
+.bottom-container span {
+  color: #11999E;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 25px;
+}
+.bottom-container p {
+  margin-top: 20px;
+  color: #EAF6F6;
+}
+
 h1 {
   font-size: 5.629rem;
   margin: 50px auto 0 auto;
@@ -30,19 +50,23 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999E;
 }
 
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #66bfbf;
 }
 
 .top-container {
-  background-color: #EAF6F6;
   text-align: center;
   padding-top: 100px;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .profile {
@@ -80,4 +104,27 @@ h3 {
 
 .my-photo {
   border-radius: 50%;
+}
+
+.dots {
+  font-size: 3rem;
+  color: lightgrey;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0 60px 0;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
