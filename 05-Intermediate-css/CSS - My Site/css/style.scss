@@ -11,7 +11,7 @@ body {
   font-family: verdana, sans-serif;
   font-family: "Merriweather", serif;
   text-align: center; ///////////////////
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 
 .middle-container {
@@ -20,25 +20,24 @@ body {
     width: 50%;
     margin: 200px auto 200px auto; // Було 100px !!!
     text-align: left;
-    line-height: 2;
   }
 }
 .bottom-container {
-  background-color: #66BFBF;
-  height: 100px;
-  padding-top: 40px; 
+  background-color: #66bfbf;
+  // height: 100px;
+  // padding-top: 40px;
+  padding: 50px 0 20px;
   a {
     text-decoration: none;
   }
   span {
-    color: #11999E;
+    color: #11999e;
     font-weight: bold;
     font-size: 1.2rem;
-    margin: 25px;
+    margin: 10px 20px;
   }
-  p {
-    margin-top: 20px;
-    color: #EAF6F6;
+  span:hover {
+    color: #eaf6f6;
   }
 }
 
@@ -56,13 +55,23 @@ h2 {
   color: #66bfbf;
 }
 h3 {
-  color: #11999E;
+  color: #11999e;
 }
 
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
-  
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted lightgray 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -81,17 +90,27 @@ h3 {
   // visibility: hidden;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
 .top-cloud {
   position: absolute;
-  top: 50px;
+  top: 40px;
   margin-left: 120px;
-  // right: 300px;
+  right: 300px;
 }
 
 .bottom-cloud {
   position: absolute;
-  // left: 300px;
-  // bottom: 300px;
+  left: 250px;
+  bottom: 300px;
 }
 
 .react-img {
@@ -116,7 +135,7 @@ h3 {
 .dots {
   font-size: 3rem;
   color: lightgrey;
-  // font-weight: bold;
+  word-spacing: -0.5rem;
 }
 
 .btn {
@@ -130,6 +149,7 @@ h3 {
   -moz-border-radius: 8;
   border-radius: 8px;
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -145,4 +165,11 @@ h3 {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.copyright {
+  // margin-top: 20px;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
