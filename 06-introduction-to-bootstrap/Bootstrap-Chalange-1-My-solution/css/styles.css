@@ -3,6 +3,10 @@
   src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 }
 @font-face {
+  font-family: "Montserrat-Bold";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+}
+@font-face {
   font-family: "Ubuntu";
   src: url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 }
@@ -51,4 +55,27 @@ h1 {
 .iphone-img {
   width: 60%;
   transform: rotate(25deg);
+}
+
+.features__div {
+  text-align: center;
+}
+.features__div i {
+  font-size: 5rem;
+  color: #ef8172;
+  padding-bottom: 20px;
+}
+.features__div i:hover {
+  color: #ff4c68;
+  cursor: pointer;
+}
+.features__div h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features__div p {
+  color: #8f8f8f;
+  max-width: 14rem;
+  display: inline-block;
 }/*# sourceMappingURL=styles.css.map */

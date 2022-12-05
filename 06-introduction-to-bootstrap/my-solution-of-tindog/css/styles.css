@@ -1,54 +1,45 @@
 @font-face {
   font-family: "Montserrat";
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 }
 @font-face {
   font-family: "Ubuntu";
   src: url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 }
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
 #title {
   background: #ff4c68;
-  color: #fff;
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
+  color: white;
 }
 
 .container-fluid {
   padding: 3% 15%;
 }
 
-.navbar {
-  padding-bottom: 4.5rem;
-}
-
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
-.nav-item {
-  padding: 0 18px;
+.title-div {
+  margin-top: 10%;
 }
 
 .nav-link {
-  font-size: 1.2rem;
-  font-weight: 300;
-}
-
-.download-button {
-  margin: 5% 3% 5% 0;
+  margin: 0 20px;
 }
 
 .iphone-img {
-  width: 60%;
   transform: rotate(25deg);
+}
+
+.download-button {
+  margin: 5px;
 }/*# sourceMappingURL=styles.css.map */
