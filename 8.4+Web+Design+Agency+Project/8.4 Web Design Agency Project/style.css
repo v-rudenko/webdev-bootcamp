@@ -1,0 +1,134 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+h1 {
+  width: 800px;
+}
+
+.tile-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  /* gap: 50px; */
+}
+
+.card {
+  display: inline-block;
+  /* margin: 20px; */
+}
+
+.card {
+  /* margin: ; */
+}
+.card p {
+  display: inline-block;
+}
+.card h2 {
+  margin: 0px;
+}
+
+.card-desc {
+  display: inline-block;
+  margin: 20px 0 0 50px;
+}
+
+span {
+  color: rgb(14, 13, 105);
+}
+
+.left {
+  margin-right: 5%;
+}
+
+@media (min-width: 2317px) {
+  .card-desc {
+    max-width: 700px;
+  }
+}
+@media (max-width: 2316px) {
+  .card-desc {
+    width: 600px;
+  }
+}
+@media (max-width: 2116px) {
+  .card-desc {
+    width: 500px;
+  }
+}
+@media (max-width: 1916px) {
+  .card-desc {
+    width: 400px;
+  }
+}
+@media (max-width: 1690px) {
+  .card-desc {
+    width: 300px;
+  }
+}
+@media (max-width: 1500px) {
+  .card-desc {
+    display: block;
+    clear: both;
+    margin: 0;
+    text-align: center;
+  }
+  .left {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 901px) {
+  h1 {
+    max-width: 650px;
+  }
+  .left {
+    margin-right: 30px;
+  }
+} 
+@media (max-width: 747px) {
+  .logo {
+    width: 120px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    max-width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .card .card-desc {
+    width: 100%;
+  }
+  .card .card-desc h2 {
+    font-size: 2rem;
+  }
+  .card .card-desc p {
+    font-size: 1rem;
+    text-align: left;
+  }
+}/*# sourceMappingURL=style.css.map */
