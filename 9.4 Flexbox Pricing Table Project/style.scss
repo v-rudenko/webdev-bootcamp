@@ -13,15 +13,16 @@ body {
 .pricing-plan {
   // transition: margin-top 4s;
   // margin-top: 100px;
-  width: 450px;
-  height: 300px;
+  max-width: 400px;
+  // max-height: 300px;
+  // overflow: hidden;
+  flex: 1;
   background-color: #D6E6F2;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
-  // gap: 10px;
-  // justify-content: center;
+  padding: 20px;
 }
 
 .plan-title {
@@ -55,7 +56,7 @@ button {
   transition: background-color 1s, width ease-out 1s;
   // transition: width 3s ease-in-out;
   &:hover {
-    background-color: red;
+    background-color: orangered;
     width: 100px;
     height: 45px;
   }
